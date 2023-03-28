@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::CRONOMETRO::</title>
+</head>
+<body>
+    <style>
+      
+         .cronometro{
+            text-align: center;
+         
+        }
+        body{
+           
+            background-image: url(https://cronometro.com.br/cron%C3%B4metro.webp);
+            font-family: Arial, Helvetica, sans-serif;
+            color: hsl(60, 100%, 98%);
+            font-size: 50px;
+
+            
+        }
+        button{
+            background: #f68b36;
+            width: 20%;
+            border-style: none;
+            color:#fff9f4 ;
+            font-size: xx-large;
+            border-radius: 20px;
+            
+        }
+        @font-face {
+            font-family:'Calculator' ;
+            src: url(Calculator.ttf);
+        }
+
+        div h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        span{
+            color: black;
+            font-weight: 600;
+            font-family: 'Calculator';
+            
+        }
+
+        footer{
+            font-size: medium;
+          background-color: rgba(0, 0, 0, 0.732);
+            color: white;
+            text-align: center;
+           margin-top: 20%;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: #fff9f4;
+            font-style: italic;
+           
+        }
+        
+
+    </style>
+    <div class="cronometro">
+        <h1>CRONÔMETRO</h1>
+        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+        <button id="button-start">Start</button>
+        <button id="button-stop">Stop</button>
+        <button id="button-reset">Reset</button>
+    </div>
+    <footer> <h1>Página desenvolvido por Mateus Dorvis&reg;| <a href="https://gmail.com">Mateusdorvis004@gmail</a></h1></footer>
+</body>
+</html>
